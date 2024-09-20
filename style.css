@@ -1,0 +1,244 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #0047ab;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fdf7f7;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.landing {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10rem 1rem;
+}
+
+.landing-content h1 {
+    font-size: 4rem;
+    color: #0e0d0d;
+}
+
+.btn-primary {
+    background-color: #ff5722;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features {
+    padding: 4rem 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    flex: 1;
+    padding: 2rem;
+    background-color: #0047ab;
+    color: #faf7f7;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.feature-item i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #0047ab;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Login Section */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.login-section form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header and Main Content */
+.dashboard {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2,
+h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    margin-bottom: 40px;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* Dashboard Feature List */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #388E3C;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard {
+        padding: 20px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        text-align: center;
+    }
+
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    ul li {
+        text-align: center;
+    }
+}
